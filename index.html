@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-sm-12 my-2">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo" class="logo">
+                </a>
+                <h1 class="text-uppercase display-5 font-weight-bold text-center mt-4 head-text"> Welcome to the Gamer Zone </h1>
+            </div>
+            <div class="col-sm-6">
+                <!-- La usaremos para crear nuestra imagen
+                En automatico con la clase img-fluid hacemos que nose salga desu contenedor-->
+                <img src="img/portada.png" class="img-fluid" alt="main">
+            </div>
+            <div class="col-sm-6 text-center align-self-center">
+                <!-- Esta abarcara la otra mita -->
+                <p class="text-description">Here you will find all the information on the latest video games that have been released, be able to buy them and subscribe to our mailbox to receive all the recent news of the games you like the most.</p>
+                <form action="">
+                    <input type="text" class="form-control my-4 text-center" placeholder="Enter your email">
+                    <button class="btn btn-light">
+                        SEND ME INFORMATION
+                    </button>
+                </form>
+                <!-- Con esta clase le quitamos los estilos por default de HTML 
+                Con el list inline dentro de ul, hacemos que se acomoden hacia los lados en vez de hacia abajo, solo tenemos que ponerse igual a los li -->
+                <ul class="list-unstyled list-inline mt-4">
+                    <li class="list-inline-item">
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
